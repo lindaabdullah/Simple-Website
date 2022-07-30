@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<!-- HEAD -->
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>List my links</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* changes ALL content of "inputs" div */
+        #inputs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+        }
+
+        /* changes the contents of "inputs" div */
+        #inputs > * { 
+            width: 100%;
+            margin: 8px;
+        }
+
+        .input {
+            display: flex;
+        }
+        
+        label {
+            width: 30%;
+        }
+        
+        input {
+            width: 70%;
+        }
+    </style>
+</head>
+
+<!-- HTML -->
+<html>
+
+
+<!-- BODY -->
+<body id="linkListerBody">
+
+    <div id="interaction">
+        
+        <p class="labels"></p>
+
+        <div id="inputs">
+            <div id="input1" class="input">
+                <label for="nameInput" class="label1">Name:</label>
+                <input type="text" id="nameInput" placeholder="Name">
+            </div>
+
+            <div id="input2" class="input">
+                <label for="linkInput" class="label1">Link:</label>
+                <input type="text" id="linkInput" placeholder="Link">
+            </div>
+
+            <button id="enterBTN">Enter</button>
+            
+        </div>
+
+    </div>
+
+    <div id="displayResults">
+        <ul id="list">
+        </ul>
+    </div>
+
+</body>
+
+
+<!-- SCRIPT -->
+<script src="linklister.js"></script>
+
+</html>    

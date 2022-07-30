@@ -1,0 +1,146 @@
+img {
+    border: solid 5px blueviolet;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.paddingLeft{
+    padding-left: 10px;
+}
+.font20{
+    font-size: 20px;
+}
+.black{
+    color: black;
+}
+
+/*-------------------- counter.html ------------------ */
+/* ---- CLASSES --- */
+.counterPart{
+    /* height: 50px; */
+    background: #CCCCCC;
+    width: 600px;
+    /* margin: 0 auto; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.linkTxt{
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.buttons{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* --- IDs --- */
+#counterBody{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("img1.jpg") fixed;
+  
+    /* Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges */
+    background-size: cover;
+    /* allows no repetition */
+    background-repeat: no-repeat;
+}
+
+#myLink{
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+
+#timerSection{
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    margin: 100px;
+    background-color: darkgray;
+    border: 8px dotted black;
+}
+
+#timerValue{
+    height: 15px;
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+
+
+#text{
+    /* margin: 15px; */
+    /* width: 500px; */
+    display: flex;
+    align-items: center; /* position horizontaly*/
+    justify-content: space-evenly; /* position vertically*/
+}
+
+#label2{
+    display: flex;
+    justify-content: center;
+}
+
+
+#displayed{
+    padding-left: 5px;
+}
+
+#numberPicture{
+    position: absolute;
+    top: 449px;
+}
+
+
+/* ---------- LinkLister.html -------------- */
+ 
+/* ---- CLASSES --- */
+.label1{
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#linkListerBody {
+    background-color: antiquewhite;
+}
+
+#inputs{
+    width: 100px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-self: center;
+
+    /* margin: 0 auto; this centers it*/
+}
+
+#interaction{
+    display: flex;
+    
+    margin-left: 30px;
+    /* float: left; */
+}
+
+

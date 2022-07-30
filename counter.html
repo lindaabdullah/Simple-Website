@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<!-- HTML -->
+<html lang="en">
+    
+    <!-- HEAD -->
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <title>Counter</title>
+    
+    </head>
+
+
+<!-- BODY -->
+<body id="counterBody">   
+
+    
+    <div id="myLink">
+        <a href="LinkLister.html" class="linkTxt"><strong>Click me</strong></a>
+    </div>
+    <div id="timerSection">
+        <p class="label1" style="padding-left: 75px;">
+            <b>Timer</b>
+        </p>
+        <p id="timerValue">0</p>
+
+        <div class="buttons">
+            <button id="startTimer" >Start</button>
+            <button id="stopTimer">Stop</button>
+        </div>
+
+    </div>
+
+    <div class="counterPart">
+
+        <div id="text">  
+            <p class="label1"> <b>Enter your starting number:</b></p>
+
+            <input type="text" id="userInput">
+        </div>
+    
+        <div class="buttons"> <!--  puts the buttons under the text box -->
+            <button id="submitID">Set Number</button>
+            <button id="incr">Increment</button> 
+            <button id="decr">Decrement</button>
+        </div>
+
+        <p id="displayed">
+           <p class="black font20 paddingLeft">Displayed number: <span id="displayNumber" style="color: black;"></span></p>
+        </p>
+
+    </div>
+
+    <div id="numberPicture">
+        <!-- <a href="https://www.google.com/"><img src="numbers.jpg" width=350px height=150px/></a>  THIS TURNS PICTURE INTO LINK-->
+        <img src="numbers.jpg" width=350px height=150px/>
+        <p id="colorTxt">    
+        </p>
+    </div>
+    
+    
+<!-- SCRIPT -->
+<script src="counter.js"></script>
+
+
+<!-- END OF BODY -->
+</body>
+</html>
